@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+ 
+<!-- the Local LogLevel for Analytics -->
+<string name="ga_logLevel">verbose</string>
+ 
+<!-- how often the dispatcher should fire -->
+<integer name="ga_dispatchPeriod">30</integer>
+ 
+<!-- Treat events as test events and don't send to google -->
+<bool name="ga_dryRun">false</bool>
+ 
+<!-- The screen names that will appear in reports -->
+<string name="com.sdy60ge5.teamge5_a2.MainActivity">Record Path</string>
+<string name="com.sdy60ge5.teamge5_a2.SavePathActivity">Record Finish</string>
+<string name="com.sdy60ge5.teamge5_a2.DropBoxActivity">Upload To DropBox</string>
+<string name="com.sdy60ge5.teamge5_a2.LoginActivity">Login to your Account</string>
+<string name="com.sdy60ge5.teamge5_a2.RegisterActivity">Register New Account</string>
+<string name="com.sdy60ge5.teamge5_a2.ReviewPathActivity">Make a review</string>
+<string name="com.sdy60ge5.teamge5_a2.RankListOfPlayersActivity">Ranking</string>
+<string name="com.sdy60ge5.teamge5_a2.AllPathsTogetherActivity">All Paths</string>
+</resources>

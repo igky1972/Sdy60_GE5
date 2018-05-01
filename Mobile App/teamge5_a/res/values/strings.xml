@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PathsOnMap Rethimno</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_menu">Menu</string>
+    <string name="submenu_show_maps">Show Map</string>
+    <string name="submenu_review_paths">Make a review</string>
+    <string name="submenu_rank__list_of_players">Ranking</string>
+    <string name="submenu_all_paths_together">All Paths</string>
+    <string name="location_try_to_fix_again">Location try to fix again:</string>
+    <string name="location_is_fixed">Location is Fixed.</string>
+    <string name="location">Location:</string>
+    <string name="path_type_prompt">Choose a path type</string>
+
+    <string-array name="path_type_arrays">
+        <item>sidewalk</item>
+        <item>crosswalk</item>
+        <item>pedestrian walkway</item>
+        <item>accessible entrance</item>
+        <item>pedestrian bridge</item>
+        <item>pedestrian tunnel</item>
+        <item>trail</item>
+    </string-array>
+
+    <string name="select_path_type">Select Path Type:</string>
+    <string name="start_path">Start Path</string>
+    <string name="stop_path">Stop Path</string>
+    <string name="select_activity">Select Activity:</string>
+    <string name="my_location_service_started">Path Started</string>
+    <string name="my_location_service_label">PathsOnMap</string>
+    <string name="my_location_service_content">Path is Recording</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="accuracy">accuracy</string>
+    <string name="dash">-</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="unable_to_creat_maps">Sorry! Unable to create maps</string>
+    <string name="alter_dialog_for_gps">GPS or Network provider is disabled in your device. You can\'t start recording if you don\'t enable both providers (High accuracy).Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_gps">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_gps">Cancel</string>
+    <string name="alter_dialog_for_wifi">WiFi is disabled in your device. You can\'t start recording if you don\'t enable WiFi.Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_wifi">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_wifi">Cancel</string>
+    <string name="alter_dialog_for_mobile_data">Mobile data are disabled in your device. You can\'t start recording if you don\'t enable mobile data.Enable it and try again.</string>
+    <string name="ok_button_of_alter_dialog_for_mobile_data">Go to Settings Page</string>
+    <string name="cancel_button_of_alter_dialog_for_mobile_data">Cancel</string>
+    <string name="title_activity_save_path">SavePathActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_drop_box">DropBoxActivity</string>
+    <string name="link_with_dropbox">Link with Dropbox</string>
+    <string name="upload_gpx_file_gps">Upload GPX file from gps</string>
+    <string name="upload_gpx_file_google">Upload GPX file from google</string>
+    <string name="dropbox_image_text">Dropbox</string>
+    <string name="upload_to_dropbox">Upload to Dropbox</string>
+    <string name="discard">Discard</string>
+    <string name="upload_path">Upload path</string>
+    <string name="gap"></string>
+    <string name="alter_dialog_for_discard">Are you sure you want to discard this path? This cannot be undone.</string>
+    <string name="ok_button_of_alter_dialog_for_discard">Yes</string>
+    <string name="cancel_button_of_alter_dialog_for_discard">No</string>
+    <string name="first_part_of_distance_message_to_user">If you upload the path, you will gain </string>
+    <string name="second_part_of_distance_message_to_user">points for having gone </string>
+    <string name="third_part_of_distance_message_to_user">meters.</string>
+    <string name="first_part_of_tag_locations_message_to_user">Also, you will gain </string>
+    <string name="second_part_of_tag_locations_message_to_user">points for having taged </string>
+    <string name="third_part_of_tag_locations_message_to_user">location(s).</string>
+    <string name="btn_submit_path_type">Submit path type</string>
+    <string name="msg_file_cant_upload_no_location">File can\'t upload, because no location found.</string>
+    <string name="msg_sorry_no_location_gps">Sorry, the path was not recorded, because of gps problems.</string>
+    <string name="msg_already_uploaded">You have already uploaded the file. You can not upload it again.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="login_account">Login to your Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_account_register_me">I don\&apos;t have account. Register Me!</string>
+    <string name="register_account">Register New Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Register</string>
+    <string name="already_register_login_me">Already registred. Login Me!</string>
+    <string name="title_activity_upload_to_server">UploadToServerActivity</string>
+    <string name="title_activity_review_path">ReviewPathActivity</string>
+    <string name="submit">Submit</string>
+    <string name="select_review_type">Review path:</string>
+    <string name="review_type_prompt">Choose a review</string>
+
+    <string-array name="review_type_arrays">
+        <item>not acceptable path</item>
+        <item>difficult to accept path</item>
+        <item>acceptable path</item>
+        <item>good path</item>
+        <item>excellent path</item>
+    </string-array>
+
+    <string name="select_review_tags_type">Review tags:</string>
+    <string name="tags_review_type_prompt">Choose a review</string>
+
+    <string-array name="tags_review_type_arrays">
+        <item>no tag accepted</item>
+        <item>less tags accepted</item>
+        <item>half tags accepted</item>
+        <item>most tags accepted</item>
+        <item>all tags accepted</item>
+    </string-array>
+
+    <string name="discard2">discard/new path</string>
+    <string name="title_activity_rank_list_of_players">RankListOfPlayersActivity</string>
+    <string name="rankListOfPlayers">Rank List Of Players</string>
+    <string name="total_strings_message">The total points of player are:</string>
+    <string name="error_message_in_rank_of_players">Oops! An error occurred.</string>
+    <string name="internet_connection_required">You must be connected to the internet.</string>
+    <string name="submenu_log_out">Log out</string>
+    <string name="title_activity_all_paths_together">AllPathsTogetherActivity</string>
+    <string name="all_paths">All Paths Together</string>
+    <string name="submenu_upload_to_dropbox">Upload to DropBox</string>
+    <string name="new_location_message_to_user">In addition, you will gain 50 points which will be maintained if it is a new path. Oherwise, the 50 points will be removed within 1&#8211;2 day(s)</string>
+    <string name="record_path">Record Path</string>
+    <string name="record_finish">Record Finish</string>
+    <string name="drop_box_upload">Upload To DropBox</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="submenu_chania">Chania</string>
+    <string name="submenu_corfu">Corfu</string>
+    <string name="map_of_chania">Map of Chania</string>
+    <string name="map_of_corfu">Map of Corfu</string>
+    <string name="map_of_rethimno">Map of Rethimno</string>
+    <string name="unable_to_load_all_paths">Unable to load all paths</string>
+    <string name="title_activity_test_review">TestReviewActivity</string>
+
+</resources>

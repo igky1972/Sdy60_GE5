@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>CorfuPedestrianRoads</name>
+		<Placemark>
+			<name>Almani Miniati</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-2</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227083,39.621082,0.0 19.9238536,39.621239,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Dimodokou</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-2</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9226439,39.6212121,0.0 19.9234419,39.6213102,0.0 19.9234767,39.6213237,0.0 19.9235116,39.6213423,0.0 19.9235371,39.621364,0.0 19.9236001,39.6213671,0.0 19.9236712,39.6213722,0.0 19.923812,39.621381500000005,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Andrea Dendrinou</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.922650600000004,39.621364,0.0 19.9237865,39.6214859,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Souliou</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-2</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9226734,39.6215055,0.0 19.9237503,39.6216264,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Zografou Aggelou Gialina</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9226815,39.6216501,0.0 19.9237275,39.6217782,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Laurenti Mavili</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9226908,39.6217741,0.0 19.9233185,39.621879400000005,0.0 19.9236993,39.6219321,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Leon Seremeti</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9226962,39.6220819,0.0 19.9236618,39.6221852,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Moustoxidi</name>
+			<description><![CDATA[Sidewalk]]></description>
+			<styleUrl>#line-4186F0-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.922693500000005,39.6221852,0.0 19.923635,39.6223174,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Idromenon</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-4</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227297,39.6223825,0.0 19.9230073,39.6224156,0.0 19.9230382,39.6224011,0.0 19.9230918,39.6223856,0.0 19.9231951,39.6224259,0.0 19.9235934,39.62248580000001,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Aristotelous</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227244,39.6225085,0.0 19.9227405,39.6225085,0.0 19.923576,39.6226191,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Gennata</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227445,39.6226418,0.0 19.9235505,39.6227534,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Eparhou</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-2</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227552,39.6228081,0.0 19.923521,39.62289690000001,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Nikardou</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227418,39.6229269,0.0 19.9227525,39.6229269,0.0 19.9235076,39.623023,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Gilford</name>
+			<description><![CDATA[Pedestrian Walkway]]></description>
+			<styleUrl>#line-009D57-4</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9227418,39.6229269,0.0 19.9227552,39.6228081,0.0 19.9227445,39.6226418,0.0 19.9227244,39.6225085,0.0 19.9227297,39.6223825,0.0 19.922693500000005,39.6221852,0.0 19.9226962,39.6220819,0.0 19.9226908,39.6217741,0.0 19.9226815,39.6216501,0.0 19.9226734,39.6215055,0.0 19.922650600000004,39.621364,0.0 19.9226439,39.6212121,0.0 19.9227083,39.621082,0.0 19.9228156,39.6208464,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Kapodistriou</name>
+			<description><![CDATA[Sidewalk]]></description>
+			<styleUrl>#line-4186F0-4</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9235076,39.623023,0.0 19.923521,39.62289690000001,0.0 19.9235505,39.6227534,0.0 19.923576,39.6226191,0.0 19.9235934,39.62248580000001,0.0 19.923635,39.6223174,0.0 19.9236618,39.6221852,0.0 19.9236993,39.6219321,0.0 19.9237275,39.6217782,0.0 19.9237503,39.6216264,0.0 19.9237865,39.6214859,0.0 19.923812,39.621381500000005,0.0 19.9238536,39.621239,0.0 19.9238616,39.6211976,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Eleutherias</name>
+			<description><![CDATA[Sidewalk]]></description>
+			<styleUrl>#line-4186F0-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9235076,39.623023,0.0 19.9235076,39.6231645,0.0 19.9236578,39.6236727,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Agoniston Politehniou</name>
+			<description><![CDATA[Sidewalk]]></description>
+			<styleUrl>#line-4186F0-4</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9238616,39.6211976,0.0 19.9240977,39.62113980000001,0.0 19.9245268,39.6212679,0.0 19.924795000000003,39.6215117,0.0 19.9249721,39.621677,0.0 19.9253422,39.6225901,0.0 19.92553,39.6230819,0.0 19.9255568,39.6233422,0.0 19.9255085,39.6234537,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Viktoros Dousmani</name>
+			<description><![CDATA[Sidewalk]]></description>
+			<styleUrl>#line-4186F0-3</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>19.9236578,39.6236727,0.0 19.9242854,39.6235736,0.0 19.9250472,39.6235033,0.0 19.9255085,39.6234537,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Style id='line-009D57-2'>
+			<LineStyle>
+				<color>ff579D00</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-009D57-3'>
+			<LineStyle>
+				<color>ff579D00</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-009D57-4'>
+			<LineStyle>
+				<color>ff579D00</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-4186F0-3'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id='line-4186F0-4'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+	</Document>
+</kml>

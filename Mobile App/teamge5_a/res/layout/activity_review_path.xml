@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.webview.MainActivity" >
+
+<TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/select_review_type" />
+    
+    
+<Spinner
+      android:id="@+id/spinnerReview"
+      android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignTop="@+id/textView1"
+       android:layout_toEndOf="@id/textView1"
+       android:layout_toRightOf="@id/textView1"
+       android:entries="@array/review_type_arrays"
+       android:prompt="@string/review_type_prompt" />
+<TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/select_review_tags_type"
+      android:layout_below="@+id/spinnerReview" />
+<Spinner
+      android:id="@+id/spinnerReview2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@+id/textView2"
+      android:layout_toEndOf="@id/textView2"
+      android:layout_toRightOf="@id/textView2"
+      android:entries="@array/tags_review_type_arrays"
+      android:prompt="@string/tags_review_type_prompt" />
+  <Button
+      android:id="@+id/btnSubmit"
+      android:layout_width="wrap_content"
+      android:layout_alignTop="@+id/btnDiscard"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/spinnerReview2"
+      android:visibility="invisible"
+      android:onClick="submit"
+      android:text="@string/submit" />
+  
+  <Button
+      android:id="@+id/btnDiscard"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@id/btnSubmit"
+      android:layout_toRightOf="@id/btnSubmit"
+      android:layout_below="@+id/spinnerReview2"
+      android:visibility="invisible"
+      android:onClick="discard"
+      android:text="@string/discard2" />
+  
+
+   <WebView
+      android:id="@+id/webView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_below="@+id/btnDiscard" />
+
+</RelativeLayout>

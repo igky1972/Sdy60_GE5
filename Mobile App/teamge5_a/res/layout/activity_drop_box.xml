@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<Button 
+      android:id="@+id/auth_button" 
+	  android:text="@string/link_with_dropbox"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+	  />
+    <LinearLayout
+        android:id="@+id/logged_in_display" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+		<ImageView  
+          android:id="@+id/image_view" 
+		  android:layout_width="fill_parent" 
+		  android:layout_height="0dp" 
+		  android:layout_weight="1"
+		  android:contentDescription="@string/dropbox_image_text"
+		  android:src="@drawable/dropbox" 
+		  />
+		
+		  <Button 
+		  	android:id="@+id/upload_button" 
+		    android:text="@string/upload_gpx_file_gps"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        /> 
+	        <Button 
+		  	android:id="@+id/upload_button2" 
+		    android:text="@string/upload_gpx_file_google"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        /> 
+    </LinearLayout>
+</LinearLayout>
+	      

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<TextView
+    	android:id="@+id/distance_message_to_user"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textSize="20sp"/>
+       
+	<TextView
+    	android:id="@+id/tag_locations_message_to_user"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textSize="20sp"/>
+	<TextView
+    	android:id="@+id/new_location_message_to_user"
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textSize="20sp"
+        android:text ="@string/new_location_message_to_user"/>
+    
+    <LinearLayout
+        android:id="@+id/buttons_discard_and_save_path_display" 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        >
+		<Button  
+          android:id="@+id/discard_button" 
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content" 
+		  android:text="@string/discard"
+		  android:onClick = "onBtnDiscardClicked"
+		  />
+		<TextView
+            android:id="@+id/gap_between_buttons_tv"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/gap" />
+		<Button 
+		  	android:id="@+id/upload_path_button"
+		  	android:layout_width="0dp"
+		  	android:layout_height="wrap_content" 
+		  	android:layout_weight="1" 
+		    android:text="@string/upload_path"
+		    android:onClick ="onBtnUploadPathClicked"
+	        /> 
+    </LinearLayout>
+    
+</LinearLayout>

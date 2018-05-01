@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Rethimno Pedestrian Map</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <style>
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false&key=AIzaSyCnu7GjQ6wqt1KX6Uv_3SdMfL8fkr5Dhkk"></script>
+    <script>
+        function initialize() {
+            var rethimno = new google.maps.LatLng(35.366943, 24.479972);
+            var mapOptions = {
+                zoom: 18,
+                center: rethimno
+            }
+
+
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+
+            map.set('styles',[
+                {
+                    "featureType": "road",
+                    "stylers": [
+                        { "visibility": "on" }
+                    ]
+                },{
+                }
+            ]);
+
+            var pedestrianLayer = new google.maps.KmlLayer({
+                url: 'http://83.212.111.234/teamge5_a/pedestrianKmls/RethimnoPedestrianRoads.kmz',
+                preserveViewport: true
+            });
+            pedestrianLayer.setMap(map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+</head>
+<body>
+<div id="map-canvas"></div>
+</body>
+</html>

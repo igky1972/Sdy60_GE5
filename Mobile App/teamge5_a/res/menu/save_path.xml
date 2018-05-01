@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sdy60ge5.teamge5_a.SavePathActivity" >
+<!--Για να μην εμφανίζει το settings στο menu
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+  -->  
+    <item
+        android:id="@+id/action_menu1"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_menu">
+        <menu>
+        	<item
+            	android:id="@+id/submenu_drop_box"
+            	android:showAsAction="always"
+            	android:title="@string/submenu_upload_to_dropbox"/>
+        	
+    	</menu>
+    </item> 
+
+</menu>
